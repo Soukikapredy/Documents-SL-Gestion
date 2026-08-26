@@ -1,11 +1,18 @@
-SL GESTION DE SUIVIE est un tableau de bord complet de gestion, de suivi et d’analyse.
-Il combine :
+# SL GESTION DE SUIVIE — multi-utilisateurs
 
-gestion financière ;
-gestion des opérations ;
-suivi des travailleurs ;
-évaluation de performance ;
-visualisation graphique ;
-présentation moderne.
-C’est une solution conçue pour piloter efficacement une activité, suivre les chiffres en temps réel et prendre de meilleures décisions.
+Inscription sans e-mail : chaque utilisateur saisit uniquement son prénom, son nom et crée un mot de passe d’au moins 8 caractères.
 
+Chaque compte possède ses propres opérations, paramètres, employés, pointages et performances.
+
+## Compte démo
+
+- Prénom : `Utilisateur`
+- Nom : `Démo`
+- Mot de passe : `demo2026`
+
+## Variables Vercel
+
+```text
+DATABASE_URL=URL_POSTGRESQL_NEON
+SPL_SESSION_SECRET=SECRET_ALEATOIRE_32_CARACTERES_MINIMUM
+```
